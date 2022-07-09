@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    font-size: 12px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+}
+.caja{
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    border: 2px solid rgb(212, 209, 209);
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.cancelarboton{
+    width: 115px;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-color: #ff0000;
+    color: white;
+    border: 1px solid rgb(251, 176, 176);
+    font-size: 12px;
+}
+.actualizarboton{
+    width: 135px;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-color: #0066ff;
+    color: white;
+    border: 1px solid rgb(251, 176, 176);
+    font-size: 12px;
+}
+
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    background-color: gray;
+    padding: 35px;
+    color:white;
+
+}
+.organizacionsocial{
+    display: flex;
+    width: 100%;
+    top: 50%;
+    background-color: white;
+    height: 20px;
+    color:gray;
+
+}
+.informetecnico{
+    display: flex;
+    width: 100%;
+    background-color: #00ff33;
+    height: 20px;
+    color:gray;
+
+}
+
+strong{
+    margin-left: 5px;
+}
+
+body{
+  background-image: url(https://contigotv.pe/wp-content/uploads/2021/04/Chaclacayo-Lima-10.jpg) ;
+  height: 65rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.header{
+    width: 100%;
+    height: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: #d3e7fb;
+    /*font-family: 'Poppins', sans-serif;*/
+
+}
+.empresa{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-family: 'Send Flowers', cursive;
+    font-size: 24px;
+}
+.login{
+    margin-right: 20px;
+}
+.nav{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    
+}
+a{
+    text-decoration: none;
+    color: #054484;
+}
+.nav a:hover{
+    background-color: #054484;
+    color: white;
+    padding: 0.02rem;
+}
+.icono{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
